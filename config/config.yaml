@@ -1,5 +1,5 @@
-oss:
-  endpoint: "https://oss-cn-hangzhou.oss.com"
-  accessKeyID: "ayunwSky"
-  accessKeySecret: "ayunwSkySecret"
-  bucketName: "ayunwsky"
+port: 8080
+database: "mysql://localhost:3306/mydatabase"
+redis_host: "localhost"
+redis_port: 6379
+redis_pwd: "mypassword"
