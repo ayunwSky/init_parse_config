@@ -13,8 +13,8 @@ func main() {
 		return
 	}
 
-	fmt.Printf("redis database: %v", config.Redis.Database)
-	fmt.Printf("redis port: %v", config.Redis.Port)
-	fmt.Printf("mysql database: %v", config.Mysql.Database)
-	fmt.Printf("mysql port: %v", config.Mysql.Port)
+	fmt.Printf("redis database: %v\n", config.Redis.Database)
+	fmt.Printf("redis port: %v\n", config.Redis.Port)
+	fmt.Printf("mysql database: %v\n", config.Mysql.Database)
+	fmt.Printf("mysql port: %v\n", config.Mysql.Port)
 }

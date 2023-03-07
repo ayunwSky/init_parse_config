@@ -51,7 +51,7 @@ func InitConfig() (*Config, error) {
 		return nil, err
 	}
 
-	fmt.Println(config)
+	fmt.Printf("all config contents: %v\n",config)
 
 	// 将所有配置文件返回
 	return &config, nil
