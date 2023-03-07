@@ -1,5 +1,11 @@
-port: 8080
-database: "mysql://localhost:3306/mydatabase"
-redis_host: "localhost"
-redis_port: 6379
-redis_pwd: "mypassword"
+mysql:
+  port: 3306
+  database: "mysql://localhost:3306/mydatabase"
+  host: "localhost"
+  password: "Mysqlpwd"
+
+redis:
+  port: 6379
+  database: 1
+  host: "localhost"
+  password: "Redispwd"

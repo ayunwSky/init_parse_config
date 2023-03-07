@@ -1,2 +1,3 @@
 # init_parse_config
+
 Go在init函数中解析配置文件并返回所有配置数据，能让所有包都能调用配置
